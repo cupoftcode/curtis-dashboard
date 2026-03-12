@@ -1,8 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://srv1382750.tail3c4e3b.ts.net/:path*"
-    }
-  ]
+"rewrites": [
+{
+"source": "/v1/:path*",
+"destination": "https://srv1382750.tail3c4e3b.ts.net/v1/:path*"
+},
+{
+"source": "/health",
+"destination": "https://srv1382750.tail3c4e3b.ts.net/health"
+}
+]
 }
